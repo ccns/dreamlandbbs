@@ -1680,7 +1680,7 @@ static KeyFuncList class_cb =
     {XO_CUR | XO_POSF, {.posf = class_cur}},
 
     {'r' | XO_POSF, {.posf = class_browse}},
-    {'/' | XO_POSF, {.posf = class_search}},
+    //{'/' | XO_POSF, {.posf = class_search}},
     {'c', {class_newmode}},
 
     {'s', {class_switch}},
